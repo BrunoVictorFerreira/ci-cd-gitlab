@@ -7,13 +7,9 @@ executar_teste:
   stage: testes
   before_script:
     - echo "Preparando testes..."
+    - chmod +x ./script.sh
   script:
-    - echo "Executando testes..."
-    - pwd
-    - ls
-    - cat /etc/os-release
-    - mkdir pipeline
-    - ls
+    - ./script.sh
   after_script:
     - echo "Apagando arquivos temporários..."
 
