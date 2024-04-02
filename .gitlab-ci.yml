@@ -9,6 +9,11 @@ executar_teste:
     - echo "Preparando testes..."
   script:
     - echo "Executando testes..."
+    - pwd
+    - ls
+    - cat /etc/os-release
+    - mkdir pipeline
+    - ls
   after_script:
     - echo "Apagando arquivos temporários..."
 
