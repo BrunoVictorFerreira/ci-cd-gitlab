@@ -4,7 +4,7 @@ stages:
   - deploy
 
 executar_teste:
-  stage: teste
+  stage: testes
   before_script:
     - echo "Preparando testes..."
   script:
@@ -13,7 +13,7 @@ executar_teste:
     - echo "Apagando arquivos temporários..."
 
 executar_teste2:
-  stage: teste
+  stage: testes
   script:
     - echo "Executando teste 2..."
 criar_imagens:
