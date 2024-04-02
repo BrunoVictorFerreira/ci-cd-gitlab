@@ -19,7 +19,7 @@ executar_teste2:
 criar_imagens:
   stage: build
   script:
-    - echoerror "Criando imagens..."
+    - echo "Criando imagens..."
 push_imagens:
   needs:
     - criar_imagens
