@@ -17,6 +17,7 @@ executar_teste2:
   stage: testes
   script:
     - echo "Executando teste 2..."
+    - npm version
 criar_imagens:
   stage: build
   script:
