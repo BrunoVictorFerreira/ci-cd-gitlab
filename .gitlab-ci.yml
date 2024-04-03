@@ -1,4 +1,4 @@
-image: node19.1
+image: node:19.1
 
 stages:
   - testes
