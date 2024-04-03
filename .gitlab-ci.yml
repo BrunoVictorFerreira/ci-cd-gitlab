@@ -1,3 +1,5 @@
+image: node19.1
+
 stages:
   - testes
   - build
